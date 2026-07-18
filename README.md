@@ -89,10 +89,6 @@ SELECT Month_Name,
 FROM energy_production 
 GROUP BY Month_Name, Source 
 ORDER BY Avg_Monthly_Production DESC;
+
 🚀 Next Steps
 Connect this verified MySQL data warehouse into Power BI to deploy an interactive dashboard tracking operational health and asset production peaks.
-
-
-Ise paste karke jaise hi aap green **"Commit changes..."** button par click karenge, aapka `README.md` alag-alag headings aur dark-themed code blocks ke sath ekdam industry standard ka lagne lagega! 
-
-Iske baad aapka SQL repository part poori tarah se ready hai. Jab aapka dashboard ka plan ho, tab hum aage Power BI par kaam shuru karenge.
