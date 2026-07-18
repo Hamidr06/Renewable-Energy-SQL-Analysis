@@ -98,7 +98,5 @@ SELECT
     SUM(Production) AS Total_Monthly_Production
 FROM energy_production
 GROUP BY Month_Name, Source
-ORDER BY Avg_Monthly_Production DESC;
-    Season VARCHAR(20),
-    Production INT
+ORDER BY Avg_Monthly_Production DESC
 );
